@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/arg-Prog-Api/static/css/main.073c9b0a.css",
-    "main.js": "/arg-Prog-Api/static/js/main.d6c0d304.js",
-    "static/js/787.46c2b972.chunk.js": "/arg-Prog-Api/static/js/787.46c2b972.chunk.js",
-    "static/media/logo.svg": "/arg-Prog-Api/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/arg-Prog-Api/static/css/main.36a2d014.css",
+    "main.js": "/arg-Prog-Api/static/js/main.0ba72d5f.js",
+    "static/media/nube.png": "/arg-Prog-Api/static/media/nube.29817d52422ecb8fbe6b.png",
     "index.html": "/arg-Prog-Api/index.html",
-    "main.073c9b0a.css.map": "/arg-Prog-Api/static/css/main.073c9b0a.css.map",
-    "main.d6c0d304.js.map": "/arg-Prog-Api/static/js/main.d6c0d304.js.map",
-    "787.46c2b972.chunk.js.map": "/arg-Prog-Api/static/js/787.46c2b972.chunk.js.map"
+    "main.36a2d014.css.map": "/arg-Prog-Api/static/css/main.36a2d014.css.map",
+    "main.0ba72d5f.js.map": "/arg-Prog-Api/static/js/main.0ba72d5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d6c0d304.js"
+    "static/css/main.36a2d014.css",
+    "static/js/main.0ba72d5f.js"
   ]
 }
