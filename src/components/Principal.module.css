@@ -1,0 +1,56 @@
+.areaPrincipal{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    padding: 3rem;
+    background-color: chocolate;
+    color: white;
+}
+.areaNubeDia{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.clima{
+    height: 50%;
+}
+.clima > img {
+    height: 100%;
+}
+.horaDia{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.ciudadHora{
+    width: 50%;
+}
+.ciudadHora > h1{
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+.ciudadHora > h2{
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+.tempActual{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tempActual > h2{
+    font-size: 10rem; 
+}
+.tempActual > h3{
+    font-size: 3rem;
+}
+.areaMaxMin{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+    width: 30%;
+    height: 100%;
+}

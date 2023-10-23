@@ -1,0 +1,58 @@
+.areaItem{
+    background-color: #aaf08e;
+    border-radius: 2rem;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.gauge {
+    align-self: center;
+    width: 60%;
+    max-width: 25rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.2rem;
+    color: #004033;
+  }
+.gaugeBody{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background: #b4c0be;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+}
+.gaugeFill{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: #009578;
+    transform-origin: center top;
+    /* transform: rotate(0.25turn); */
+    transition: transform 1s ease-out;
+}
+.gaugeCover{
+    width: 75%;
+    height: 150%;
+    background-color: #aaf08e;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+     /* Text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+}
+.gaugeCover > h2{
+    font-size: 2rem;
+}

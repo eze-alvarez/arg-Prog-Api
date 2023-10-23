@@ -1,0 +1,30 @@
+.areaItem{
+    background-color: #aaf08e;
+    border-radius: 2rem;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.containerUp, .containerDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 2rem;
+  
+}
+.boxImg{
+    height: 100%;
+}
+.boxImg > img{
+    height: 100%;
+}
+
+.numeroUnidad > h2{
+    font-size: 2rem;
+}
+.data{
+    font-size: 2rem;
+}

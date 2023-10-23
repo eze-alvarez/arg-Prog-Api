@@ -1,0 +1,32 @@
+.tempArea{
+    height: 10rem;
+    width: 15rem;
+    border: thin solid white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+.grados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    gap: 0.5rem;
+}
+.grados > h2 {
+   font-size: 2.5rem;
+}
+.infoImg{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    gap: 0.5rem;
+}
+.infoImg> h2{
+    font-size: 2rem;
+}
+.infoImg > span {
+    height: 100%;
+}
+.infoImg > span > img {
+   height: 100%;
+}

@@ -1,0 +1,23 @@
+.areaClima{
+    background-color: cadetblue;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40vh 40vh 20vh;    
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+header{
+    grid-area: header;
+    background-color: coral;
+}
+main{
+  grid-area: main;
+  background-color: beige;
+}
+footer{
+grid-area: footer;
+background-color: #d1d1d1;;
+}

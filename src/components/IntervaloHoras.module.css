@@ -1,0 +1,16 @@
+.areaIntervalo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  padding: 1rem 2rem;
+}
+.areaIntervalo > h2{
+  color: black;
+  align-self: start;
+}
+.areaIntervalo > div{
+  height: 85%;
+  display: flex;
+  justify-content: center;
+}

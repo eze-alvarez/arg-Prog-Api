@@ -1,0 +1,55 @@
+.areaItem{
+    background-color: #aaf08e;
+    border-radius: 2rem;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.containerNumUni{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.numeroUnidad{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.numeroUnidad > h2{
+    font-size: 2rem;
+}
+.picture{
+    border: thin solid rgb(16, 16, 16);
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border-radius: 1rem;
+}
+.barra{
+    width: 1rem;
+    background-color: blueviolet;
+    height: 60%;
+    border-radius: 1rem;
+}
+.circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border-radius: 2rem;
+    position: absolute;
+    left: -0.5rem;
+    bottom: 50%;
+}
+
+/* .barra{
+    animation: barra-picture 0s forwards;
+}
+
+@keyframes barra-picture{
+    100%{
+        height: 60%;
+    }
+} */
