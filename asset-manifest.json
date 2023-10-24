@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/arg-Prog-Api/static/css/main.36a2d014.css",
-    "main.js": "/arg-Prog-Api/static/js/main.0ba72d5f.js",
-    "static/media/nube.png": "/arg-Prog-Api/static/media/nube.29817d52422ecb8fbe6b.png",
+    "main.css": "/arg-Prog-Api/static/css/main.2e1b3608.css",
+    "main.js": "/arg-Prog-Api/static/js/main.d4db175f.js",
+    "static/media/thunder.png": "/arg-Prog-Api/static/media/thunder.5ea9ed03535bdac3dfe2.png",
+    "static/media/lluviaHelada.png": "/arg-Prog-Api/static/media/lluviaHelada.b1906f7e91d99535f2f5.png",
+    "static/media/copos-de-nieve.png": "/arg-Prog-Api/static/media/copos-de-nieve.628016dc364c7ef6f0cd.png",
+    "static/media/pocoNublado.png": "/arg-Prog-Api/static/media/pocoNublado.fbd0b3288e72722584d1.png",
     "index.html": "/arg-Prog-Api/index.html",
-    "main.36a2d014.css.map": "/arg-Prog-Api/static/css/main.36a2d014.css.map",
-    "main.0ba72d5f.js.map": "/arg-Prog-Api/static/js/main.0ba72d5f.js.map"
+    "main.2e1b3608.css.map": "/arg-Prog-Api/static/css/main.2e1b3608.css.map",
+    "main.d4db175f.js.map": "/arg-Prog-Api/static/js/main.d4db175f.js.map"
   },
   "entrypoints": [
-    "static/css/main.36a2d014.css",
-    "static/js/main.0ba72d5f.js"
+    "static/css/main.2e1b3608.css",
+    "static/js/main.d4db175f.js"
   ]
 }
