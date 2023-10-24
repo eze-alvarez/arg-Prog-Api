@@ -22,8 +22,9 @@ ChartJS.register(
   Legend,
   Filler
 )
-export default function IntervaloBarra () {
-  const scores = [17, 20, 22, 26, 30, 35, 27, 23]
+export default function IntervaloBarra ({ temperaturas }) {
+  const scores = [temperaturas[0], temperaturas[3], temperaturas[6], temperaturas[9], temperaturas[12], temperaturas[15], temperaturas[18], temperaturas[21]]
+  // const scores = [17, 20, 22, 26, 30, 35, 27, 23]
   const labels = ['12 am', '3 am', '6 am', '9 am', '12 pm', '3 pm', '6 pm', '9 pm']
 
   const options = {
@@ -63,7 +64,8 @@ export default function IntervaloBarra () {
         data={data}
         options={options}
         style={{
-          width: '35%'
+          height: '100%',
+          width: 'auto'
         }}
       />
     </>

@@ -1,38 +1,39 @@
 import React from 'react'
-import nube from '../nube.png'
+// import nube from '../nube.png'
 import sol from '../sun.png'
 import luna from '../luna.png'
 import styles from './Principal.module.css'
 import MaxMin from './MaxMin'
+import { climaOpc } from '../utils/climaOpc'
 
-export default function Principal () {
+export default function Principal ({ weathercode, dia, hora, minuto, temp, max, min }) {
   return (
     <div className={styles.areaPrincipal}>
       <div className={styles.areaNubeDia}>
         <span className={styles.clima}>
-          <img src={nube} alt='nube' />
+          <img src={climaOpc[weathercode]} alt='nube' />
         </span>
         <div className={styles.horaDia}>
           <section className={styles.ciudadHora}>
-            <h1>Cordoba</h1>
-            <h2>Jueves, 15:15</h2>
+            <h1>Córdoba</h1>
+            <h2>{`${dia}, ${hora}:${minuto}`}</h2>
           </section>
           <section className={styles.tempActual}>
-            <h2>25</h2>
+            <h2>{temp}</h2>
             <h3>°C</h3>
           </section>
         </div>
       </div>
       <div className={styles.areaMaxMin}>
         <MaxMin
-          temp={37}
+          temp={max}
           text='High'
           icon={sol}
           alt='sol'
         />
 
         <MaxMin
-          temp={15}
+          temp={min}
           text='Low'
           icon={luna}
           alt='luna'
