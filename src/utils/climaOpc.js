@@ -20,6 +20,7 @@ import nieve from '../picture/copos-de-nieve.png'
 import trueno from '../picture/thunder.png'
 
 export const climaOpc = {
+  0: soleado,
   1: soleado,
   2: pocoNub,
   3: nublado,
