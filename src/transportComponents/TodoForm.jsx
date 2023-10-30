@@ -1,16 +1,6 @@
-import { filtrarLista } from '../utils/filtrar'
 import styles from './TodoForm.module.css'
-export default function TodoForm ({ optionChoice, data }) {
-  const lineas = []
-  data.forEach(colectivo => {
-    const recorrido = `${colectivo.route_short_name} ${colectivo.trip_headsign}`
-    lineas.push(recorrido)
-  })
-  const listaLineas = filtrarLista(lineas)
-  // console.log(lineas)
-
+export default function TodoForm ({ optionChoice, listaLineas }) {
   const selectHandler = (e) => {
-    // console.log(e.currentTarget.value)
     optionChoice(e.currentTarget.value)
   }
   return (

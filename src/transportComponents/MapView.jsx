@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
 // import bus from '../picture/bus.png'
@@ -40,22 +39,22 @@ export default function MapView ({ data }) {
     arrayLong.push(bus.longitude)
   })
   const position = promedio(arrayLat, arrayLong)
-  const [posProm, setPosProm] = useState(position)
-  useEffect(() => {
-    setPosProm(position)
-  }, [data])
   return (
-    <MapContainer center={posProm} zoom={11} scrollWheelZoom>
+    <MapContainer center={position} zoom={11} scrollWheelZoom>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
       {
-        dataIcons.map(colectivo => {
+        data.map(colectivo => {
           return (
             <Marker key={`${colectivo.route_id}-${colectivo.id}-${colectivo.tip_id}`} position={[colectivo.latitude, colectivo.longitude]} icon={iconn(colectivo.imageBus)}>
               <Popup>
-                {colectivo.route_short_name}<br /> {colectivo.trip_headsign}
+                {colectivo.route_short_name}
+                <br /> {colectivo.trip_headsign}
+                <br /> {colectivo.latitude}
+                <br /> {colectivo.longitude}
+                <br /> {colectivo.id}
               </Popup>
             </Marker>
           )
